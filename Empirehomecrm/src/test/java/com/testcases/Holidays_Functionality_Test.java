@@ -42,7 +42,7 @@ public class Holidays_Functionality_Test extends Basetest {
 		Holidays.Holidaysverify(TextHolidayDate, TextHolidayName, TextHolidayDesc, REHolidayDate, REHolidayName, REHolidayDesc);
 
 		String urltest = driver.getCurrentUrl();
-		AssertJUnit.assertEquals(urltest, "http://empirehome.myprojectsonline.co.in/User/CustomerList");
+		AssertJUnit.assertEquals(urltest, "http://empirehome.myprojectsonline.co.in/Master/Holidays");
 
 	}
 
